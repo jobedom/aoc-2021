@@ -1,0 +1,8 @@
+__pycache__/
+.mypy_cache/ 
+
+.thumbs.db
+.DS_Store
+
+*.pyc
+.env

@@ -1,0 +1,36 @@
+[MASTER]
+
+jobs=0
+ignore=.git, __pycache__
+
+[REFACTORING]
+
+max-nested-blocks=5
+
+[FORMAT]
+
+max-line-length=120
+expected-line-ending-format=LF
+
+[BASIC]
+
+bad-names=foo, bar, baz, info, data
+
+[DESIGN]
+
+max-args=5
+max-attributes=7
+max-bool-expr=5
+max-branches=12
+max-locals=15
+max-parents=7
+max-public-methods=20
+max-returns=6
+max-statements=50
+min-public-methods=2
+
+[MESSAGES CONTROL]
+
+disable=missing-module-docstring, 
+    missing-class-docstring,
+    missing-function-docstring
